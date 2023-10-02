@@ -1,9 +1,4 @@
 SELECT DISTINCT
-  --   user_name
-  --   , query_type
-  --   , query_text
-  --   , MAX(end_date) AS query_last_run_ds
-
   start_time::DATE AS query_run_ds
   , user_name
   , query_tag
