@@ -20,4 +20,4 @@ WHERE
   AND query_text ILIKE '%summary_of_action_take%'
   -- GROUP BY 1,2,3
 ORDER BY 1 DESC
-fdadf
+fdadfdfd a
