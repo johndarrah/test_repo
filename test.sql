@@ -1,10 +1,10 @@
 SELECT DISTINCT
-  start_time::DATE AS query_run_ds
-  , user_name
-  , query_tag
-  , schema_name
-  , execution_status
-  , query_type
+  start_time::DATE AS query_run_ds -- this is test
+  , user_name                      -- this is test
+  , query_tag                      -- this is test
+  , schema_name                    -- this is test
+  , execution_status               -- this is test
+  , query_type                     -- this is test
 FROM snowflake_usage.account_usage.query_history
 WHERE
   1 = 1
@@ -20,3 +20,4 @@ WHERE
   AND query_text ILIKE '%summary_of_action_take%'
   -- GROUP BY 1,2,3
 ORDER BY 1 DESC
+;
